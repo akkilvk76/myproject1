@@ -6,3 +6,16 @@ h1{
    
 
 }
+button{
+    color:rgb(32, 32, 174);
+   
+}
+body{
+    background-color: rgb(5, 13, 233);
+}
+.abcd{
+    color:rgb(10, 10, 10);
+}
+input[type="text"]{
+    color: black;
+}
