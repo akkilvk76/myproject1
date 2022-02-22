@@ -19,3 +19,6 @@ body{
 input[type="text"]{
     color: black;
 }
+#abcdef{
+    text-emphasis-color: red;
+}
