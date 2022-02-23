@@ -1,9 +1,9 @@
 h1{
-    background: #000;
+    
    color: chocolate;
    text-align: center;
    border:2px solid red;
-   
+   background: #000;
 
 }
 button{
@@ -11,14 +11,15 @@ button{
    
 }
 body{
-    background-color: rgb(5, 13, 233);
+  
+    background-color: rgb(27, 213, 104);
 }
 .abcd{
-    color:rgb(10, 10, 10);
+    color:rgb(245, 39, 39);
 }
 input[type="text"]{
     color: black;
 }
-#abcdef{
+/* #abcdef{
     text-emphasis-color: red;
-}
+} */
