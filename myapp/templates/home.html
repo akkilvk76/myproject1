@@ -9,10 +9,54 @@
         <link rel="stylesheet" href="{% static 'css/external.css' %}">
        
 
-        
-        <script src="{% static 'js/javascript.js' %}">
+        <script>
+        // <!-- <script src="{% static 'js/javascript.js' %}"> -->
+            function myfunction(){
+               alert('please careful');
+              
+            }
+            function hello(){
+              var abc= prompt('please enter your msg');
+                alert(abc);
             
+                if(abc % 2 ==0)
+           {
+               alert('number is divisible by 2');
 
+           }
+           else{
+               alert('not divisible by 2');
+           }
+           
+            }
+            function fun1(){
+                var student={fname:"akhil",lname:"vargees"};
+                for (i in student){
+                    confirm(i + ' is ' + student[i]);
+                }
+                
+            }   
+            function fun(){
+                student=['akhil','vargees','pulpalli'];
+                for (i of student){
+                    console.log(i)
+                }
+                
+            }   
+            function agi(){
+                for(i=1;i<=5;i++)
+                {
+                    for(j=1;j<=i;j++)
+                {
+                    document.write("*");
+                }
+                document.write('<br>');
+                
+                }
+                 
+            }
+            
+     
 
         </script>
     </head>
@@ -31,16 +75,18 @@
             <div class="row">
                 <div class="col-lg-3">4</div>
             
-                <div class="col-lg-6 " style="background-color:black;">
+                <div class="col-lg-6 col-sm-12 " style="background-color:black;">
                     <form action="" method="">
         
                         <input type="text" name="uname" placeholder="Type your name..." div="abcdef" ><br><br>
                         <input type="password" name="pwd" placeholder="Enter your password.."><br><br>
                          <!-- <input type="submit" value="submit"  > -->
-                         <button type="button" class="btn btn-success">>submit</button>
+                         <button type="button" class="btn btn-success">submit</button>
                          <br><br>
-                         <button type="button" class="btn btn-info" >INFO</button>
-                         <input type="button" onclick="alert('cybersquare')" value="click">
+                         <button  class="btn btn-info" onclick=myfunction()>INFO</button>
+                         <button  class="btn btn-info"  onclick=hello() >click </button>
+                         <button  class="btn btn-info"  onclick=fun1() >check </button>
+                         <button  class="btn btn-info"  onclick=agi() >check </button>
                          </form>
 
                 </div>
